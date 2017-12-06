@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    @users = User.all
+    @users = User.all #goi toi user model yeu cau tra lai toan bo user trong csdl
   end
 
   # GET /users/1
